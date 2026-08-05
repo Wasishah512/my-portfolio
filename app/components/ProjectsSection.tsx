@@ -51,12 +51,13 @@ function ProjectCard({
       <div className="absolute inset-[1px] rounded-2xl bg-dark-900/95 group-hover:bg-dark-800/95 transition-colors" />
 
       <div className="relative">
-        {/* Image */}
+      
         <div className="relative h-48 sm:h-56 overflow-hidden">
           <div className={`absolute inset-0 bg-gradient-to-br ${project.color}`} />
           <img
             src={project.image}
             alt={project.title}
+            
             className="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-dark-900 via-dark-900/40 to-transparent" />

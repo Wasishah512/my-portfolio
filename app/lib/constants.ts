@@ -1,7 +1,7 @@
 export const PERSONAL = {
   name: "Syed Wasi Ul Hassan",
-  role: "React Native Developer",
-  headline: "Building modern cross-platform mobile applications with clean architecture, real-time features, and beautiful user experiences.",
+  role: "Full Stack Developer",
+  headline: "Building modern cross-platform mobile applications , Web Applications with clean architecture, real-time features, and beautiful user experiences.",
   email: "wasishah7675@gmail.com",
   github: "https://github.com/wasishah512",
   linkedin: "https://www.linkedin.com/in/syed-wasi-965b51356/",
@@ -10,10 +10,9 @@ export const PERSONAL = {
 } as const;
 
 export const ABOUT = {
-  intro: "I'm a passionate React Native Developer focused on building scalable, high-performance mobile applications. I enjoy transforming ideas into production-ready apps with clean code, modern UI, and real-time functionality.",
-  experience: "My experience includes Firebase, REST APIs, authentication, real-time chat, push notifications, sockets, state management, and mobile performance optimization.",
+  intro: "I'm a passionate Full Stack Developer and AI enthusiast focused on building modern, scalable, and intelligent digital experiences. I enjoy transforming complex ideas into polished, production-ready applications with clean architecture, intuitive interfaces, and seamless user experiences.",
+  experience: "My experience spans Firebase, REST APIs, authentication, real-time chat, push notifications, WebSockets, state management, and mobile performance optimization. I also work with Next.js, PostgreSQL, backend integrations, AI APIs, Generative AI, AI agents, and automation, allowing me to build complete solutions across mobile, web, and intelligent applications.",
   learning: [
-    "Next.js",
     "Agentic AI",
     "Generative AI",
     "AI Automation",
@@ -53,7 +52,8 @@ export const PROJECTS = [
   {
     id: 1,
     title: "Van Pooling App",
-    description: "A cross-platform transportation management application for schools that allows parents to monitor children's pickups and drop-offs in real time.",
+    description:
+      "A cross-platform transportation management application for schools that allows parents to monitor children's pickups and drop-offs in real time.",
     features: [
       "Live vehicle tracking",
       "Parent dashboard",
@@ -69,13 +69,14 @@ export const PROJECTS = [
     tech: ["React Native", "PostgreSQL", "Socket.io", "Expo", "Node.js"],
     image: "images/Login-page.png",
     github: "#",
-    demo: "#",
+    demo: "vedios/vanPooling.mp4",
     color: "from-violet-500/20 to-cyan-500/20",
   },
   {
     id: 2,
     title: "Social Connect",
-    description: "A modern social media application built with React Native featuring real-time communication and social engagement.",
+    description:
+      "A modern social media application built with React Native featuring real-time communication and social engagement.",
     features: [
       "Authentication",
       "Create posts",
@@ -88,16 +89,24 @@ export const PROJECTS = [
       "Cloudinary integration",
       "Firebase backend",
     ],
-    tech: ["React Native", "Firebase", "Firestore", "Socket.io", "Cloudinary", "Expo"],
-    image: "/images/project-social.jpg",
-    github: "#",
-    demo: "#",
+    tech: [
+      "React Native",
+      "Firebase",
+      "Firestore",
+      "Socket.io",
+      "Cloudinary",
+      "Expo",
+    ],
+    image: "/images/SocialConnect.jpeg",
+    github: "https://github.com/Wasishah512/SocialConnect_app_frontend",
+    demo: "vedios/SocialConnectApp.mp4",
     color: "from-pink-500/20 to-violet-500/20",
   },
   {
     id: 3,
     title: "Quote Generator",
-    description: "A beautiful motivational quote application with modern animations and category-based inspirational content.",
+    description:
+      "A beautiful motivational quote application with modern animations and category-based inspirational content.",
     features: [
       "Thousands of quotes",
       "Random quote generator",
@@ -109,15 +118,16 @@ export const PROJECTS = [
       "Offline support",
     ],
     tech: ["React Native", "Expo", "Async Storage"],
-    image: "/images/project-quotes.jpg",
-    github: "#",
-    demo: "#",
+    image: "/images/QuoteGen.jpeg",
+    github: "https://github.com/Wasishah512/codealpha_task2",
+    demo: "vedios/QuoteGenerator.mp4",
     color: "from-amber-500/20 to-pink-500/20",
   },
   {
     id: 4,
     title: "Quiz Flip Card App",
-    description: "An interactive quiz application where users answer questions by flipping animated cards.",
+    description:
+      "An interactive quiz application where users answer questions by flipping animated cards.",
     features: [
       "Flip card animation",
       "Multiple categories",
@@ -128,10 +138,45 @@ export const PROJECTS = [
       "Interactive learning experience",
     ],
     tech: ["React Native", "Expo", "Animated API"],
-    image: "/images/project-quiz.jpg",
-    github: "#",
-    demo: "#",
+    image: "/images/FlipCardQuiz.jpeg",
+    github: "https://github.com/Wasishah512/codealpha_task01",
+    demo: "vedios/FlipCardQuiz.mp4",
     color: "from-cyan-500/20 to-green-500/20",
+  },
+  {
+    id: 5,
+    title: "Sluuni AI Chatbot",
+    description:
+      "A modern AI chatbot platform built with Next.js featuring a beautiful landing page, secure authentication, an interactive chat system, and complete database handling for users and chat data.",
+    features: [
+      "Beautiful landing page",
+      "AI chatbot",
+      "Secure authentication",
+      "Interactive chat system",
+      "Real-time chat experience",
+      "Chat history",
+      "User management",
+      "Database integration",
+      "PostgreSQL database",
+      "Better Auth authentication",
+      "Drizzle ORM",
+      "Responsive design",
+      "Modern UI",
+    ],
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "React",
+      "PostgreSQL",
+      "Drizzle ORM",
+      "Better Auth",
+      "AI API",
+      "Tailwind CSS",
+    ],
+    image: "images/sluuni.png",
+    github: "https://github.com/Wasishah512/anthropic_chatbot",
+    demo: "https://anthropic-chatbot-two.vercel.app/",
+    color: "from-blue-500/20 to-cyan-500/20",
   },
 ] as const;
 
@@ -176,16 +221,33 @@ export const SERVICES = [
 export const EXPERIENCE = [
   {
     title: "React Native Developer",
-    description: "Built multiple production-ready mobile applications using React Native and Firebase with a focus on performance, scalability, and user experience.",
+    description:
+      "Developed cross-platform mobile applications using React Native and Expo, implementing real-time features, authentication, APIs, Firebase services, and modern responsive interfaces.",
     period: "Present",
     type: "work" as const,
   },
   {
-    title: "Current Learning",
-    description: "Expanding expertise into Next.js, Generative AI, Agentic AI, Automation, Large Language Models, and Workflow Automation.",
+    title: "Next.js Developer",
+    description:
+      "Building modern full-stack web applications with Next.js and TypeScript, focusing on responsive interfaces, authentication, database integration, APIs, and scalable application architecture.",
+    period: "Present",
+    type: "work" as const,
+  },
+  {
+    title: "AI & Automation",
+    description:
+      "Expanding expertise in Generative AI, Large Language Models, Agentic AI, AI-powered applications, workflow automation, and intelligent systems.",
     period: "Ongoing",
     type: "learning" as const,
-    items: ["Next.js", "Generative AI", "Agentic AI", "Automation", "Large Language Models", "Workflow Automation"],
+    items: [
+      "Generative AI",
+      "Large Language Models LLM",
+      "Agentic AI",
+      "AI Applications",
+      "Workflow Automation",
+      "AI Agents",
+      "Automation",
+    ],
   },
 ] as const;
 

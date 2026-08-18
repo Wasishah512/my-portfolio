@@ -21,7 +21,7 @@ export default function Footer() {
               <span className="text-white/60">.</span>
             </a>
             <p className="text-sm text-white/30 leading-relaxed max-w-xs">
-              {PERSONAL.role} — Building mobile apps and AI solutions with passion and precision.
+              {PERSONAL.role} — Building mobile apps, Web apps and AI solutions with passion and precision.
             </p>
           </div>
 

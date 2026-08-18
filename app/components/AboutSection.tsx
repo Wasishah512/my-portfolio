@@ -21,7 +21,7 @@ export default function AboutSection() {
         <SectionHeading
           label="About Me"
           title="Passionate Developer"
-          subtitle="Transforming ideas into production-ready mobile applications"
+          subtitle="Transforming ideas into production-ready mobile applications and web applications with clean architecture, real-time features, and beautiful user experiences."
         />
 
         <div ref={ref} className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
@@ -50,7 +50,15 @@ export default function AboutSection() {
                 transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
                 className="absolute -top-4 -right-4 px-4 py-2 glass-strong rounded-xl shadow-lg"
               >
-                <span className="text-sm font-semibold text-violet-300">React Native</span>
+                <span className="text-sm font-semibold text-violet-500">React Native</span>
+              </motion.div>
+
+                <motion.div
+                animate={{ y: [0, -10, 0] }}
+                transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+                className="absolute -top-4 -right--50 px-4 py-2 glass-strong rounded-xl shadow-lg"
+              >
+                <span className="text-sm font-semibold text-amber-400">Next.js</span>
               </motion.div>
 
               <motion.div

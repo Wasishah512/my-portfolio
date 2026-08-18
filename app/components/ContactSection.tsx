@@ -53,7 +53,7 @@ export default function ContactSection() {
           subtitle="Have a project in mind? Let's discuss how we can work together."
         />
 
-        <div ref={ref} className="grid lg:grid-cols-5 gap-8 lg:gap-12">
+        <div ref={ref} className="grid lg:grid-cols-5 gap-8 lg:gap-12 items-center mt-12">
           {/* Info side */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
@@ -110,7 +110,7 @@ export default function ContactSection() {
           </motion.div>
 
           {/* Form side */}
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, x: 30 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.2 }}
@@ -202,7 +202,7 @@ export default function ContactSection() {
                 )}
               </motion.button>
             </form>
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
     </section>
